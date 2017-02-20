@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+header {
+  background-image: url("gym-floor.jpg");
+  background-size: cover;
+  font-size: 16px;
+}
+a {
+  color:black;
+  text-decoration: none;
+  display: inline;
+}
+h1 {
+  font-size: 40px;
+}
+ul {
+  padding: 10px;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  padding: 0px 0px 0px 5px;
+}
+.right-nav {
+  position: right;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
