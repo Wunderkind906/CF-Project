@@ -19,8 +19,33 @@
 	 </div>
 	</header>
 	<h1>Contact Us</h1>
-	<p>We're located at 123 Main Street.</p>
+	<div id="map"></div>
+	<div id="contact_info">
+	<h2>ADDRESS</h2>
+	<p>We're located at:</p> <p>The Battersea Sports Centre</p> <p>Hope St, London, SW11 2DA</p>
+	<h2>EMAIL US</h2>
+	<p>info@wandsworthrams.net</p>
+	<h2>CALL US</h2>
+	<p>0207237 8515</p>
+	</div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 51.4646, lng: -0.1795};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaZ6Yj8aBMZJLp3GgA5yUxgIUNW5zmWiI&callback=initMap">
+    </script>
 </body>
 
 </html>
+
 

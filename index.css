@@ -30,3 +30,19 @@ article {
   padding: 20px;
   margin: 0 auto;
 }
+#map {
+  height: 400px;
+  width: 48%;
+  float: left;
+}
+#contact_info {
+  height: 400px;
+  width: 48%;
+  background-color: #b3de81;
+  float: right;
+}
+#contact_info * {
+  padding: 0 10px 0 10px;
+  color: black;
+  text-align: center;
+}
