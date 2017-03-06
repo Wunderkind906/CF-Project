@@ -1,10 +1,13 @@
 body {
   font-family: sans-serif;
+  background: url("largegymfloor.jpg");
 }
 header {
   background-image: url("gym-floor.jpg");
   background-size: cover;
   font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  border: 10px solid black;
 }
 a {
   color:black;
@@ -20,7 +23,10 @@ h2 {
   text-align:center;
 }
 p {
+  font-size: 20px;
+  font-weight: bold;
   padding-left: 60px;
+  padding-top: 60px;
 }
 form {
   padding-left: 60px;
@@ -32,3 +38,19 @@ ul {
 li {
   display: inline-block;
   padding: 0px 0px 0px 5px;
+}
+#tournamentpic {
+  height: 400px;
+  width: 48%;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  border: 7px solid black;
+}
+#tournamentform {
+  height: 400px;
+  width: 48%;
+  background-color: #b3de81;
+  float: right;
+  padding: 5px 5px 5px 5px;
+  border: 7px solid black;
+}

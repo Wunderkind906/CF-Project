@@ -1,10 +1,13 @@
 body {
   font-family: sans-serif;
+  background: url("largegymfloor.jpg");
 }
 header {
   background-image: url("gym-floor.jpg");
   background-size: cover;
   font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  border: 10px solid black;
 }
 a {
   color:black;
@@ -13,6 +16,7 @@ a {
 }
 h1 {
   font-size: 40px;
+  text-align: center;
 }
 ul {
   padding: 10px;
@@ -34,12 +38,16 @@ article {
   height: 400px;
   width: 48%;
   float: left;
+  padding: 5px 5px 5px 5px;
+  border: 7px solid black;
 }
 #contact_info {
   height: 400px;
   width: 48%;
   background-color: #b3de81;
   float: right;
+  padding: 5px 5px 5px 5px;
+  border: 7px solid black;
 }
 #contact_info * {
   padding: 0 10px 0 10px;
